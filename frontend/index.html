@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>My Property Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🏡 Property & Land Marketplace</h1>
+    <p>Browse, Learn & Buy Smarter with AI Assistance</p>
+  </header>
+
+  <main>
+    <section id="listings">
+      <h2>Available Properties</h2>
+      <div class="property-card">
+        <img src="https://via.placeholder.com/200" alt="Property">
+        <h3>3BHK Apartment - Austin</h3>
+        <p>Price: $250,000</p>
+      </div>
+      <div class="property-card">
+        <img src="https://via.placeholder.com/200" alt="Property">
+        <h3>Farmland - Dallas</h3>
+        <p>Price: $90,000</p>
+      </div>
+    </section>
+
+    <section id="chatbot">
+      <h2>🤖 Property Assistant</h2>
+      <div id="messages"></div>
+      <input type="text" id="userInput" placeholder="Ask me about properties..." />
+      <button onclick="sendMessage()">Send</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
